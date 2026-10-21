@@ -1,0 +1,20 @@
+:root { font-family: system-ui, sans-serif; line-height: 1.5; color: #1a1a1a; background: #fff; }
+main { max-width: 52rem; margin: 0 auto; padding: 1rem; }
+h1 { margin-bottom: 0; }
+.intro { margin-top: .25rem; color: #444; }
+section { border: 1px solid #bbb; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+h2 small { font-weight: normal; color: #555; font-size: .8em; }
+label, input, select, textarea { display: block; margin-bottom: .4rem; }
+input, select, textarea { padding: .35rem; font: inherit; width: min(100%, 22rem); }
+.row { display: flex; flex-wrap: wrap; gap: 1rem; align-items: end; }
+.row input, .row select { width: 9rem; }
+.check { display: flex; gap: .4rem; align-items: center; }
+.check input { width: auto; margin: 0; }
+button { padding: .45rem 1rem; font: inherit; cursor: pointer; }
+table { border-collapse: collapse; margin-top: .75rem; }
+caption { text-align: left; font-weight: bold; }
+th, td { border: 1px solid #999; padding: .3rem .6rem; text-align: left; }
+.error { font-weight: bold; text-decoration: underline; margin: 0 0 .6rem; }
+.ok { border-left: 4px solid #2a7a2a; padding-left: .6rem; font-weight: bold; }
+.mono { font-family: ui-monospace, monospace; font-size: .9rem; background: #f2f2f2; padding: .25rem .5rem; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
